@@ -64,8 +64,12 @@ Each directory numbered from 00 onwards contains the code for each sequential st
 
 (`LPT`) Biogeographic analysis under parsimony was carried out on the chosen topology with h=4 using `PhyloNetworks` and plotting with `PhyloPlots`, both in `Julia`.
 
+### 12\_phylo\_conflict
+
+(`LPT`) Exploration of phylogenetic conflict due to incomplete lineage sorting and reticulate evolution using the output of `ASTRAL-4` with the summary option `-u 2` and compiling summaries with `phytop`. Cotangleplot between the `ASTRAL-4` species tree and the major tree from the chosen `SNaQ` network generated with `phytools` and `ape` in `R`.
+
 ## Citation
 
 Please cite the article:
 
-Ballen, G.A., Solís-Lemus, C. Tiley, G.P. \& Oliveira, C. 2026. Beyond tree-like evolution in Ostariophysan fishes.
+Ballen, G.A., Solís-Lemus, C. Tiley, G.P. \& Oliveira, C. 2026. Beyond tree-like evolution in Ostariophysan fishes. BioRxiv.
